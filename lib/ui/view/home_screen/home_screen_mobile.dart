@@ -110,10 +110,12 @@ class _HomeScreenMobile extends StatelessWidget {
           SliverAppBar(
             backgroundColor: Colors.transparent,
             elevation: 0,
-            leading: const Icon(
-              Icons.circle,
-              size: 50,
-              color: Colors.white,
+            leading: IconButton(
+              onPressed: () {},
+              icon: const Icon(
+                Icons.person,
+                color: Colors.white,
+              ),
             ),
             centerTitle: true,
             title: const Text(

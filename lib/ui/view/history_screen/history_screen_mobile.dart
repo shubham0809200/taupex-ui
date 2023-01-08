@@ -237,19 +237,19 @@ class _HistoryScreenMobile extends StatelessWidget {
         borderWidth: 0,
         primaryXAxis: NumericAxis(
           majorGridLines: const MajorGridLines(width: 0),
-          minimum: 17,
-          maximum: 26,
+          minimum: months.indexOf(viewModel.selectedMonth) - 1,
+          maximum: months.indexOf(viewModel.selectedMonth) + 2,
           interval: 5,
-          isVisible: false,
+          isVisible: true,
           axisLine: const AxisLine(width: 0),
-          labelStyle: const TextStyle(color: Colors.transparent),
+          labelStyle: const TextStyle(color: Colors.black),
         ),
         primaryYAxis: NumericAxis(
           majorGridLines: const MajorGridLines(width: 0),
           minimum: 0,
-          maximum: 120,
+          maximum: 1000,
           interval: 20,
-          isVisible: false,
+          isVisible: true,
           axisLine: const AxisLine(width: 0),
           labelStyle: const TextStyle(color: Colors.transparent),
         ),
@@ -336,13 +336,21 @@ class _HistoryScreenMobile extends StatelessWidget {
               ),
             ],
           ),
-          Text(
-            amount,
-            style: const TextStyle(
-              fontSize: 15,
-              fontWeight: FontWeight.bold,
+          Row(children: [
+            Text(
+              amount,
+              style: const TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
             ),
-          ),
+            const SizedBox(width: 5),
+            const Icon(
+              Icons.euro_symbol,
+              color: Colors.black,
+              size: 20,
+            ),
+          ])
         ],
       ),
     );
