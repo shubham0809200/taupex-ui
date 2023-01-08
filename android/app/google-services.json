@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "443532454253",
+    "project_id": "taupex-shub",
+    "storage_bucket": "taupex-shub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443532454253:android:2992ae122d71ed4961d264",
+        "android_client_info": {
+          "package_name": "com.example.taupex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443532454253-tm07aprth74ogbhatspgaf9hsn60gsfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taupex",
+            "certificate_hash": "168bf92c82b00e03c86071f754ce1381f28f60e3"
+          }
+        },
+        {
+          "client_id": "443532454253-4tf7gpu5fu33n94ars8ahbme1tedrlpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Vr-t_oUmenIA0d7__WfhEKOoqE_QLVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443532454253-4tf7gpu5fu33n94ars8ahbme1tedrlpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
